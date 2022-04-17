@@ -1,0 +1,67 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="App.Page1">
+    <ContentPage.Content>
+        <StackLayout>
+            <Frame BackgroundColor="#BF043055" HasShadow="False" IsVisible="True">
+                <StackLayout Orientation="Vertical" Spacing="10">
+                    <Label x:Name="messagebox" FontSize="Medium" Text="{Binding MyStringProperty}"/>
+                </StackLayout>
+            </Frame>
+
+            <Grid Margin="20,35,20,20">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="0.5*" />
+                </Grid.ColumnDefinitions>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="50" />
+                </Grid.RowDefinitions>
+
+                <Label Text="Relay Control" TextColor="White" HorizontalTextAlignment="Center" Grid.ColumnSpan="4" Grid.Row="0"/>
+
+
+                <Label Text="ALL" Grid.Column="0" Grid.Row="1" VerticalTextAlignment="Center"/>
+                <Button x:Name="relayOnALL" Text="ON" Grid.Column="1" Grid.Row="1" Clicked="relayOnALL_Clicked" BackgroundColor="DarkGray" />
+                <Button x:Name="relayOffALL" Text="OFF" Grid.Column="2" Grid.Row="1" Clicked="relayOffALL_Clicked" BackgroundColor="DarkGray"/>
+                <Button Text="TOGGLE" Grid.Column="3" Grid.Row="1" Clicked="relayToggleALL_Clicked"/>
+
+                <Label Text="Relay1" Grid.Column="0" Grid.Row="2" VerticalTextAlignment="Center"/>
+                <Button x:Name="relayOn1" Text="ON" Grid.Column="1" Grid.Row="2" Clicked="relayOn1_Clicked" BackgroundColor="DarkGray" />
+                <Button x:Name="relayOff1" Text="OFF" Grid.Column="2" Grid.Row="2" Clicked="relayOff1_Clicked" BackgroundColor="DarkGray"/>
+                <Button Text="TOGGLE" Grid.Column="3" Grid.Row="2" Clicked="relayToggle1_Clicked"/>
+
+                <Label Text="Relay2" Grid.Column="0" Grid.Row="3" VerticalTextAlignment="Center"/>
+                <Button x:Name="relayOn2" Text="ON" Grid.Column="1" Grid.Row="3" Clicked="relayOn2_Clicked" BackgroundColor="DarkGray" />
+                <Button x:Name="relayOff2" Text="OFF" Grid.Column="2" Grid.Row="3" Clicked="relayOff2_Clicked" BackgroundColor="DarkGray"/>
+                <Button Text="TOGGLE" Grid.Column="3" Grid.Row="3" Clicked="relayToggle2_Clicked"/>
+
+                <Label Text="Relay3" Grid.Column="0" Grid.Row="4" VerticalTextAlignment="Center"/>
+                <Button x:Name="relayOn3" Text="ON" Grid.Column="1" Grid.Row="4" Clicked="relayOn3_Clicked" BackgroundColor="DarkGray" />
+                <Button x:Name="relayOff3" Text="OFF" Grid.Column="2" Grid.Row="4" Clicked="relayOff3_Clicked" BackgroundColor="DarkGray"/>
+                <Button Text="TOGGLE" Grid.Column="3" Grid.Row="4" Clicked="relayToggle3_Clicked"/>
+
+                <Label Text="Relay4" Grid.Column="0" Grid.Row="5" VerticalTextAlignment="Center"/>
+                <Button x:Name="relayOn4" Text="ON" Grid.Column="1" Grid.Row="5" Clicked="relayOn4_Clicked" BackgroundColor="DarkGray" />
+                <Button x:Name="relayOff4" Text="OFF" Grid.Column="2" Grid.Row="5" Clicked="relayOff4_Clicked" BackgroundColor="DarkGray"/>
+                <Button Text="TOGGLE" Grid.Column="3" Grid.Row="5" Clicked="relayToggle4_Clicked"/>
+
+                <Label Text="Button Control" TextColor="White" HorizontalTextAlignment="Center" Grid.ColumnSpan="4" Grid.Row="6" VerticalTextAlignment="Center"/>
+
+                <Label Text="Button1" VerticalTextAlignment="Center" Grid.Column="0" Grid.Row="7"/>
+                <Picker Title="Select Command" Grid.Column="1" Grid.Row="7" ItemsSource="{Binding Colors}" SelectedItem="{Binding SelectedColor1}"/>
+                <Picker Title="Select Relay" Grid.Column="2" Grid.Row="7" ItemsSource="{Binding Relays}" SelectedItem="{Binding SelectedRelay1}"/>
+                <Button Text="Change" Grid.Column="3" Grid.Row="7" Clicked="Picker1_Select"/>
+
+                <Label Text="Button2" VerticalTextAlignment="Center" Grid.Column="0" Grid.Row="8"/>
+                <Picker Title="Select Command" Grid.Column="1" Grid.Row="8" ItemsSource="{Binding Colors}" SelectedItem="{Binding SelectedColor2}"/>
+                <Picker Title="Select Relay" Grid.Column="2" Grid.Row="8" ItemsSource="{Binding Relays}" SelectedItem="{Binding SelectedRelay2}"/>
+                <Button Text="Change" Grid.Column="3" Grid.Row="8" Clicked="Picker2_Select"/>
+            </Grid>
+
+            <Button Text="Disconnect" TextColor="White"  
+                    FontAttributes="Bold" FontSize="Large" HorizontalOptions="FillAndExpand"  
+                    BackgroundColor="#088da5" />
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

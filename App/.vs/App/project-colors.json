@@ -1,0 +1,21 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "274c969c-b3ba-4e6d-9d37-064b4af71ba2": {
+      "ProjectGuid": "274c969c-b3ba-4e6d-9d37-064b4af71ba2",
+      "DisplayName": "App",
+      "ColorIndex": 0
+    },
+    "fe40a570-0d9b-4ab9-bbd2-562506e64883": {
+      "ProjectGuid": "fe40a570-0d9b-4ab9-bbd2-562506e64883",
+      "DisplayName": "App.Android",
+      "ColorIndex": 1
+    },
+    "696a9d3d-021e-41ec-87f9-379d40b2c3c3": {
+      "ProjectGuid": "696a9d3d-021e-41ec-87f9-379d40b2c3c3",
+      "DisplayName": "App.iOS",
+      "ColorIndex": 2
+    }
+  },
+  "NextColorIndex": 3
+}

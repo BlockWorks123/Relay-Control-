@@ -1,0 +1,17 @@
+C:\Users\Block\Documents\Spec2\Server\bin\Debug\net6.0\Server.exe
+C:\Users\Block\Documents\Spec2\Server\bin\Debug\net6.0\Server.deps.json
+C:\Users\Block\Documents\Spec2\Server\bin\Debug\net6.0\Server.runtimeconfig.json
+C:\Users\Block\Documents\Spec2\Server\bin\Debug\net6.0\Server.dll
+C:\Users\Block\Documents\Spec2\Server\bin\Debug\net6.0\ref\Server.dll
+C:\Users\Block\Documents\Spec2\Server\bin\Debug\net6.0\Server.pdb
+C:\Users\Block\Documents\Spec2\Server\bin\Debug\net6.0\System.Device.Gpio.dll
+C:\Users\Block\Documents\Spec2\Server\obj\Debug\net6.0\Server.csproj.AssemblyReference.cache
+C:\Users\Block\Documents\Spec2\Server\obj\Debug\net6.0\Server.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Block\Documents\Spec2\Server\obj\Debug\net6.0\Server.AssemblyInfoInputs.cache
+C:\Users\Block\Documents\Spec2\Server\obj\Debug\net6.0\Server.AssemblyInfo.cs
+C:\Users\Block\Documents\Spec2\Server\obj\Debug\net6.0\Server.csproj.CoreCompileInputs.cache
+C:\Users\Block\Documents\Spec2\Server\obj\Debug\net6.0\Server.csproj.CopyComplete
+C:\Users\Block\Documents\Spec2\Server\obj\Debug\net6.0\Server.dll
+C:\Users\Block\Documents\Spec2\Server\obj\Debug\net6.0\ref\Server.dll
+C:\Users\Block\Documents\Spec2\Server\obj\Debug\net6.0\Server.pdb
+C:\Users\Block\Documents\Spec2\Server\obj\Debug\net6.0\Server.genruntimeconfig.cache

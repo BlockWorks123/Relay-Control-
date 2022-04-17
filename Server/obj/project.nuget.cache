@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "262t3woBYTXRp0MlxPjaMwV7g36+Jx3TIgPKT83otHSGcgFqhOYtqWSpLi5499nmJPf4FRQKOHo5MJCkBeeHLg==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Block\\Documents\\Spec2\\Server\\Server.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Block\\.nuget\\packages\\system.device.gpio\\2.1.0\\system.device.gpio.2.1.0.nupkg.sha512"
+  ],
+  "logs": []
+}
